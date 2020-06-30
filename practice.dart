@@ -44,6 +44,9 @@ void main(){
   // runtime memory alloaction
     
   print ("PI $pi");
+  
+  double z;//rember kotlin dart uses null as defalut for datatype if not installized by us
+  print ("$z \n");
  
   
 
