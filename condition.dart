@@ -22,9 +22,29 @@ void main()
   
   print("result is = $result");
   
+  
+  
+  String name = "Soul_leo";
+  String nameToPrint = name ?? "Guest User";
+	print(nameToPrint);
+  
+  
+  
+  String name_qwe = null;
+  String nameToPrint_qwe = name_qwe ?? "Guest User";
+	print(nameToPrint_qwe);
+  
+  // exp1 ?? exp2
+  //if exp1 is null then print exp2
+  //else exp1 is not null print exp1 
+  //easy pasy
+
+  
  }
  
  /* result
 c is gerater than a 67
 a is greater 56
-result is = 56 */
+result is = 56
+Soul_leo
+Guest User*/
