@@ -1,6 +1,7 @@
 void main(){
   int a =10; // declearing int in dart
   var b=10;
+  // var detects data type automatically 
   var d = 123.567;//declearing double 
   double e = 97.45;
   
@@ -9,15 +10,20 @@ void main(){
   
   var s3 = "magic happens every where "
            "single string";
+  // multi line string 
   var s4 = 'it\'s me'; //need to use escape character
   
   
   print("single string $s3 \n"); 
-  print(" this is it $s1 and this $s2 $s3 \n");//how to do print in cmd line 
+  
+  print(" this is it $s1 and this $s2 and $s3 \n");//how to do print in cmd line 
+  
   print("lets do the sum $a and $b = ${a+b}\n");
+  
   // calc string length 
   
   print("lenth of String ${s3.length} \n");
+  
   //type
   print("how to check data type :- ${e.runtimeType} \n");
   
@@ -36,7 +42,7 @@ void main(){
   //it works under class
   // final and const dont req data type imp
    // its allocate when its called in prog then is allocate the memory to the final key word 
-  
+  // great use case of final keyword to save space .
   print("final $check");
   
   const pi = 3.14;
