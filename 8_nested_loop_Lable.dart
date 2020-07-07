@@ -25,7 +25,7 @@ void main(){
   }
   
   // continue
-  // if u just want to skip 2 2 in prog
+  // if u just want to skip 2 2 and 2 3 in prog
   
   print(" ");
    print("without LABLE");
